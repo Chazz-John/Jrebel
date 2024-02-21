@@ -2,7 +2,7 @@
 FROM lianshufeng/maven:jdk17 as build
 MAINTAINER lianshufeng <251708339@qq.com>
 
-ARG GIT_URL="https://github.com/lianshufeng/Jrebel.git"
+ARG GIT_URL="https://github.com/Chazz-John/Jrebel.git"
 ARG GIT_NAME="Jrebel"
 ARG FILE_NAME="jrebel-0.0.1-SNAPSHOT.jar"
 ARG JAR_FILE="/opt/jar"
